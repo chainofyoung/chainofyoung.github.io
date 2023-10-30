@@ -1,14 +1,15 @@
 {
-    applinks: {
-        details: [
-            {
-                appIDs: ["P5UG75VZNJ.com.ms.fish.cocoforet"],
-                components: [
-               		{
-                	/: "*"
-                    }
-                ] 
-            }
+  "activitycontinuation": {},
+  "webcredentials": {},
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "P5UG75VZNJ.com.ms.fish.cocoforet",
+        "paths": [
+          "/*"
         ]
-    }
+      }
+    ]
+  }
 }
