@@ -1,24 +1,17 @@
 {
   "applinks": {
+    "apps": [],
     "details": [
       {
-        "appIDs": [
-          "P5UG75VZNJ.com.ms.fish.cocoforet"
-        ],
-        "components": [
-          {
-            "/": "*"
-          }
+        "appID": "P5UG75VZNJ.com.ms.fish.cocoforet",
+        "paths": [
+          "/app/*"
         ]
       },
       {
-        "appIDs": [
-          "P5UG75VZNJ.com.ms.fish.cocoforet"
-        ],
-        "components": [
-          {
-            "/": "/article"
-          }
+        "appID": "P5UG75VZNJ.com.ms.fish.cocoforet",
+        "paths": [
+          "*"
         ]
       }
     ]
