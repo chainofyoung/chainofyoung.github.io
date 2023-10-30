@@ -1,0 +1,26 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "P5UG75VZNJ.com.ms.fish.cocoforet"
+        ],
+        "components": [
+          {
+            "/": "*"
+          }
+        ]
+      },
+      {
+        "appIDs": [
+          "P5UG75VZNJ.com.ms.fish.cocoforet"
+        ],
+        "components": [
+          {
+            "/": "/pages"
+          }
+        ]
+      }
+    ]
+  }
+}
