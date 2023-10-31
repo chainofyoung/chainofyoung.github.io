@@ -36,8 +36,10 @@
             }else{
                 return os = "otehr";
             }
-        } else {
-            return os = "pc";		
+        } else if((userAgent.search("macbook"))){
+            return os = "mac";		
+        } else if ((userAgent.search("windows"))){
+            return os = "windows"
         }
     }	
     
@@ -77,7 +79,7 @@
                 // location.href ="https://apps.apple.com/kr/app/twitter/id1482454543";	
                 // location.href = "https://cocoforet.com/app"
             }else if(os === 'pc'){
-                alert("pc다")
+                alert()
             }
             clearInterval(schInterval);
         }, 2000);
