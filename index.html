@@ -3,6 +3,7 @@
   location.href = "https://apps.apple.com/kr/app/twitter/id1482454543";
 </script> -->
 
+
 <head>
     <link rel="apple-app-site-association" href="https://cocoforet.com/apple-app-site-association">
     
@@ -36,10 +37,8 @@
             }else{
                 return os = "otehr";
             }
-        } else if((userAgent.search("macbook"))){
-            return os = "mac";		
-        } else if ((userAgent.search("windows"))){
-            return os = "windows"
+        } else {
+            return os = "pc";		
         }
     }	
     
@@ -72,28 +71,24 @@
         timer = setTimeout(function(){
             if(isAndroid){	
                 alert("c")
-                location.href ="https://play.google.com/store/apps/details?id=com.twitter.android&hl=ko";							  						
+                location.href ="https://play.google.com/store/apps/details?id=com.beauty9";							  						
             }else if(isIOS){	
                 alert("d")
                 location.href ="https://apps.apple.com/kr/app/id1555202827"
-                // location.href ="https://apps.apple.com/kr/app/twitter/id1482454543";	
-                // location.href = "https://cocoforet.com/app"
-            }else if(os === 'mac'){
-                alert("맥북이다")
-            }else if(os === 'windows'){
-                alert("윈도우다")
             }
             clearInterval(schInterval);
         }, 2000);
     }
-    
-    participate();
-    
+
     var iframe = document.createElement('iframe');
     iframe.style.visibility = 'hidden'; 
     iframe.src = 'coco://parameter=1111';
     document.getElementById("bob").appendChild(iframe);
     document.getElementByName("bob").removeChild(iframe);
+    
+    participate();
+    
+    
     
     
     </script>
